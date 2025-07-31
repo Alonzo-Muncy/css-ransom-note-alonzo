@@ -89,19 +89,12 @@ body {
 .didDLetter {
   font-size: 62px;
   font-weight: 700;
-  color: rgb(153, 116, 18);
+  color: hex(#73632c);
   text-decoration: Overline;
   text-transform: uppercase;
   font-family: "Creepster", system-ui;
 }
-.didILetter {
-  font-size: 31px;
-  font-weight: 400;
-  color: rgb(252, 144, 6);
-  text-decoration: None;
-  text-transform: lowercase;
-  font-family: "Butcherman", system-ui;
-}
+.didILetter,
 .didDTwoLetter {
   font-size: 47px;
   font-weight: 400;
