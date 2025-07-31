@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Butcherman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nosifer");
+@import url("https://fonts.googleapis.com/css2?family=Eater");
 
 * {
   padding: 0;
@@ -83,579 +87,673 @@ body {
 /* DID word */
 
 .didDLetter {
-  font-size: 57px;
-  font-weight: 400;
-  color: rgb(155, 133, 56);
-  text-decoration: Line-through;
-  text-transform: lowercase;
+  font-size: 62px;
+  font-weight: 700;
+  color: rgb(153, 116, 18);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .didILetter {
   font-size: 31px;
-  font-weight: Bold;
-  color: rgb(26, 52, 213);
-  text-decoration: Line-through;
-  text-transform: lowercase;
-}
-.didDTwoLetter {
-  font-size: 51px;
-  font-weight: Bold;
-  color: rgb(104, 143, 207);
+  font-weight: 400;
+  color: rgb(252, 144, 6);
   text-decoration: None;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
+}
+.didDTwoLetter {
+  font-size: 47px;
+  font-weight: 400;
+  color: rgb(116, 90, 178);
+  text-decoration: Line-through;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 /* THE word */
 .theTLetter {
-  font-size: 32px;
-  font-weight: 700;
-  color: rgb(215, 136, 193);
-  text-decoration: Line-through;
+  font-size: 33px;
+  font-weight: 400;
+  color: rgb(150, 15, 86);
+  text-decoration: Underline;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .theHLetter {
-  font-size: 53px;
-  font-weight: 700;
-  color: rgb(222, 22, 181);
-  text-decoration: Line-through;
-  text-transform: uppercase;
-}
-.theELetter {
-  font-size: 45px;
-  font-weight: Bold;
-  color: rgb(215, 220, 27);
+  font-size: 55px;
+  font-weight: Normal;
+  color: rgb(192, 200, 119);
   text-decoration: Underline;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
+}
+.theELetter {
+  font-size: 48px;
+  font-weight: Bold;
+  color: rgb(209, 146, 67);
+  text-decoration: Underline;
+  text-transform: lowercase;
+  font-family: "Eater", system-ui;
 }
 /* FRONT-END word */
 .frontendFLetter {
-  font-size: 44px;
-  font-weight: 700;
-  color: rgb(220, 15, 2);
-  text-decoration: Line-through;
+  font-size: 49px;
+  font-weight: 400;
+  color: rgb(234, 115, 150);
+  text-decoration: None;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .frontendRLetter {
-  font-size: 42px;
-  font-weight: 400;
-  color: rgb(141, 7, 12);
-  text-decoration: None;
+  font-size: 46px;
+  font-weight: 700;
+  color: rgb(255, 41, 4);
+  text-decoration: Overline;
   text-transform: uppercase;
+  font-family: "Butcherman", system-ui;
 }
 .frontendOLetter {
-  font-size: 66px;
+  font-size: 45px;
   font-weight: 400;
-  color: rgb(201, 198, 98);
+  color: rgb(104, 54, 181);
   text-decoration: Underline;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .frontendNLetter {
-  font-size: 37px;
-  font-weight: Bold;
-  color: rgb(98, 126, 10);
-  text-decoration: Overline;
+  font-size: 54px;
+  font-weight: Normal;
+  color: rgb(74, 120, 141);
+  text-decoration: Underline;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .frontendTLetter {
-  font-size: 52px;
-  font-weight: Bold;
-  color: rgb(153, 96, 37);
-  text-decoration: Line-through;
+  font-size: 65px;
+  font-weight: 700;
+  color: rgb(67, 23, 40);
+  text-decoration: None;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .frontendELetter {
-  font-size: 33px;
+  font-size: 34px;
   font-weight: Bold;
-  color: rgb(231, 234, 155);
-  text-decoration: Line-through;
+  color: rgb(247, 200, 12);
+  text-decoration: Overline;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .frontendNTwoLetter {
-  font-size: 66px;
-  font-weight: 700;
-  color: rgb(53, 169, 149);
-  text-decoration: None;
+  font-size: 65px;
+  font-weight: Normal;
+  color: rgb(27, 219, 197);
+  text-decoration: Line-through;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .frontendDLetter {
-  font-size: 48px;
-  font-weight: 400;
-  color: rgb(170, 159, 199);
+  font-size: 41px;
+  font-weight: Normal;
+  color: rgb(105, 167, 152);
   text-decoration: Underline;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-family: "Nosifer", system-ui;
 }
 /* DEVELOPER word */
 .developerDLetter {
-  font-size: 31px;
-  font-weight: Bold;
-  color: rgb(75, 26, 103);
-  text-decoration: Line-through;
+  font-size: 65px;
+  font-weight: 700;
+  color: rgb(164, 127, 59);
+  text-decoration: Overline;
   text-transform: lowercase;
+  font-family: "Eater", system-ui;
 }
 .developerELetter {
-  font-size: 59px;
-  font-weight: 400;
-  color: rgb(214, 42, 138);
-  text-decoration: Line-through;
-  text-transform: lowercase;
+  font-size: 65px;
+  font-weight: Bold;
+  color: rgb(39, 253, 51);
+  text-decoration: None;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .developerVLetter {
-  font-size: 54px;
-  font-weight: 700;
-  color: rgb(168, 159, 205);
-  text-decoration: Underline;
+  font-size: 40px;
+  font-weight: Bold;
+  color: rgb(71, 169, 107);
+  text-decoration: None;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .developerETwoLetter {
-  font-size: 64px;
+  font-size: 58px;
   font-weight: Normal;
-  color: rgb(254, 147, 59);
-  text-decoration: None;
-  text-transform: lowercase;
+  color: rgb(77, 43, 10);
+  text-decoration: Line-through;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .developerLLetter {
-  font-size: 66px;
-  font-weight: 400;
-  color: rgb(51, 114, 65);
-  text-decoration: Overline;
+  font-size: 61px;
+  font-weight: Bold;
+  color: rgb(219, 38, 182);
+  text-decoration: Underline;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .developerOLetter {
-  font-size: 71px;
-  font-weight: 400;
-  color: rgb(217, 223, 145);
-  text-decoration: Underline;
-  text-transform: uppercase;
+  font-size: 31px;
+  font-weight: 700;
+  color: rgb(55, 17, 179);
+  text-decoration: Line-through;
+  text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .developerPLetter {
-  font-size: 44px;
-  font-weight: Normal;
-  color: rgb(148, 173, 141);
-  text-decoration: Underline;
-  text-transform: lowercase;
-}
-.developerEThreeLetter {
-  font-size: 65px;
-  font-weight: 400;
-  color: rgb(181, 19, 171);
+  font-size: 38px;
+  font-weight: 700;
+  color: rgb(147, 241, 70);
   text-decoration: None;
   text-transform: uppercase;
+  font-family: "Butcherman", system-ui;
+}
+.developerEThreeLetter {
+  font-size: 64px;
+  font-weight: Normal;
+  color: rgb(159, 1, 57);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .developerRLetter {
-  font-size: 59px;
-  font-weight: Normal;
-  color: rgb(128, 65, 46);
-  text-decoration: Overline;
+  font-size: 56px;
+  font-weight: Bold;
+  color: rgb(8, 210, 218);
+  text-decoration: None;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 /* TAKE word */
 .takeTLetter {
-  font-size: 39px;
+  font-size: 47px;
   font-weight: Normal;
-  color: rgb(173, 159, 211);
-  text-decoration: Line-through;
-  text-transform: uppercase;
+  color: rgb(200, 193, 127);
+  text-decoration: Overline;
+  text-transform: lowercase;
+  font-family: "Eater", system-ui;
 }
 .takeALetter {
-  font-size: 31px;
-  font-weight: Normal;
-  color: rgb(19, 204, 194);
-  text-decoration: None;
-  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 700;
+  color: rgb(242, 103, 70);
+  text-decoration: Underline;
+  text-transform: lowercase;
+  font-family: "Eater", system-ui;
 }
 .takeKLetter {
-  font-size: 63px;
-  font-weight: Bold;
-  color: rgb(82, 224, 204);
-  text-decoration: None;
-  text-transform: uppercase;
-}
-.takeELetter {
-  font-size: 40px;
-  font-weight: 400;
-  color: rgb(113, 71, 7);
+  font-size: 55px;
+  font-weight: Normal;
+  color: rgb(205, 245, 55);
   text-decoration: None;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
+}
+.takeELetter {
+  font-size: 42px;
+  font-weight: Normal;
+  color: rgb(128, 97, 66);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 /* UP word */
 .upULetter {
-  font-size: 49px;
-  font-weight: 400;
-  color: rgb(66, 135, 148);
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(120, 128, 25);
   text-decoration: Underline;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .upPLetter {
-  font-size: 66px;
-  font-weight: Normal;
-  color: rgb(100, 213, 219);
-  text-decoration: Overline;
+  font-size: 39px;
+  font-weight: 400;
+  color: rgb(246, 158, 204);
+  text-decoration: Underline;
   text-transform: lowercase;
+  font-family: "Nosifer", system-ui;
 }
 /* GARDENING word */
 .gardeningGLetter {
-  font-size: 51px;
+  font-size: 54px;
   font-weight: Normal;
-  color: rgb(219, 142, 238);
-  text-decoration: Line-through;
-  text-transform: lowercase;
+  color: rgb(182, 10, 27);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 .gardeningALetter {
-  font-size: 54px;
-  font-weight: 400;
-  color: rgb(58, 78, 213);
-  text-decoration: Underline;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(46, 235, 223);
+  text-decoration: None;
   text-transform: lowercase;
+  font-family: "Eater", system-ui;
 }
 .gardeningRLetter {
-  font-size: 30px;
+  font-size: 43px;
   font-weight: 700;
-  color: rgb(102, 44, 36);
-  text-decoration: None;
+  color: rgb(198, 12, 211);
+  text-decoration: Underline;
   text-transform: uppercase;
+  font-family: "Eater", system-ui;
 }
 .gardeningDLetter {
-  font-size: 63px;
-  font-weight: Normal;
-  color: rgb(99, 53, 49);
-  text-decoration: Underline;
-  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 400;
+  color: rgb(193, 223, 165);
+  text-decoration: Line-through;
+  text-transform: lowercase;
+  font-family: "Eater", system-ui;
 }
 .gardeningELetter {
-  font-size: 37px;
-  font-weight: 700;
-  color: rgb(165, 213, 212);
-  text-decoration: Line-through;
-  text-transform: lowercase;
-}
-.gardeningNLetter {
-  font-size: 63px;
+  font-size: 39px;
   font-weight: Normal;
-  color: rgb(153, 189, 67);
-  text-decoration: Overline;
-  text-transform: lowercase;
-}
-.gardeningILetter {
-  font-size: 59px;
-  font-weight: 400;
-  color: rgb(170, 181, 39);
-  text-decoration: Line-through;
-  text-transform: lowercase;
-}
-.gardeningNTwoLetter {
-  font-size: 59px;
-  font-weight: Normal;
-  color: rgb(127, 182, 53);
+  color: rgb(105, 58, 173);
   text-decoration: None;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
+}
+.gardeningNLetter {
+  font-size: 53px;
+  font-weight: 700;
+  color: rgb(170, 155, 50);
+  text-decoration: None;
+  text-transform: lowercase;
+  font-family: "Eater", system-ui;
+}
+.gardeningILetter {
+  font-size: 34px;
+  font-weight: Normal;
+  color: rgb(246, 13, 144);
+  text-decoration: Line-through;
+  text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
+}
+.gardeningNTwoLetter {
+  font-size: 54px;
+  font-weight: 700;
+  color: rgb(149, 235, 245);
+  text-decoration: None;
+  text-transform: uppercase;
+  font-family: "Butcherman", system-ui;
 }
 .gardeningGTwoLetter {
-  font-size: 37px;
-  font-weight: 400;
-  color: rgb(7, 130, 249);
-  text-decoration: Underline;
+  font-size: 71px;
+  font-weight: Bold;
+  color: rgb(227, 99, 113);
+  text-decoration: Line-through;
   text-transform: lowercase;
+  font-family: "Eater", system-ui;
 }
 /* BECAUSE word */
 .becauseBLetter {
-  font-size: 50px;
-  font-weight: 400;
-  color: rgb(93, 38, 89);
+  font-size: 71px;
+  font-weight: Normal;
+  color: rgb(221, 22, 237);
   text-decoration: None;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-family: "Nosifer", system-ui;
 }
 .becauseELetter {
-  font-size: 66px;
-  font-weight: Bold;
-  color: rgb(6, 166, 141);
-  text-decoration: Line-through;
-  text-transform: lowercase;
+  font-size: 55px;
+  font-weight: 700;
+  color: rgb(72, 213, 253);
+  text-decoration: Underline;
+  text-transform: uppercase;
+  font-family: "Butcherman", system-ui;
 }
 .becauseCLetter {
-  font-size: 55px;
-  font-weight: Normal;
-  color: rgb(109, 59, 111);
+  font-size: 36px;
+  font-weight: 400;
+  color: rgb(129, 232, 205);
   text-decoration: Line-through;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .becauseALetter {
-  font-size: 52px;
-  font-weight: 700;
-  color: rgb(144, 209, 143);
-  text-decoration: None;
+  font-size: 53px;
+  font-weight: 400;
+  color: rgb(31, 73, 185);
+  text-decoration: Overline;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .becauseULetter {
-  font-size: 68px;
+  font-size: 63px;
   font-weight: Bold;
-  color: rgb(229, 255, 217);
-  text-decoration: Underline;
-  text-transform: lowercase;
+  color: rgb(86, 101, 69);
+  text-decoration: Line-through;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .becauseSLetter {
-  font-size: 38px;
-  font-weight: Bold;
-  color: rgb(109, 66, 176);
-  text-decoration: Underline;
-  text-transform: lowercase;
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(200, 20, 91);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .becauseETwoLetter {
-  font-size: 30px;
-  font-weight: 400;
-  color: rgb(10, 244, 186);
+  font-size: 35px;
+  font-weight: Bold;
+  color: rgb(111, 111, 213);
   text-decoration: Line-through;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 /* THEY word */
 .theyTLetter {
-  font-size: 67px;
+  font-size: 30px;
   font-weight: 700;
-  color: rgb(150, 42, 250);
-  text-decoration: Line-through;
+  color: rgb(86, 25, 115);
+  text-decoration: Overline;
   text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 .theyHLetter {
-  font-size: 60px;
-  font-weight: Bold;
-  color: rgb(30, 143, 97);
-  text-decoration: Line-through;
-  text-transform: lowercase;
+  font-size: 63px;
+  font-weight: 400;
+  color: rgb(10, 40, 74);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Eater", system-ui;
 }
 .theyELetter {
-  font-size: 37px;
-  font-weight: Normal;
-  color: rgb(181, 124, 166);
-  text-decoration: Overline;
+  font-size: 48px;
+  font-weight: Bold;
+  color: rgb(157, 32, 169);
+  text-decoration: Underline;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .theyYLetter {
-  font-size: 33px;
+  font-size: 62px;
   font-weight: Bold;
-  color: rgb(80, 60, 83);
-  text-decoration: Line-through;
-  text-transform: uppercase;
+  color: rgb(108, 20, 248);
+  text-decoration: Overline;
+  text-transform: lowercase;
+  font-family: "Nosifer", system-ui;
 }
 /* WANTED word */
 .wantedWLetter {
-  font-size: 49px;
-  font-weight: 400;
-  color: rgb(25, 83, 188);
-  text-decoration: None;
-  text-transform: lowercase;
+  font-size: 57px;
+  font-weight: Normal;
+  color: rgb(63, 240, 195);
+  text-decoration: Line-through;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .wantedALetter {
   font-size: 42px;
   font-weight: Normal;
-  color: rgb(233, 134, 218);
-  text-decoration: Overline;
-  text-transform: lowercase;
+  color: rgb(164, 104, 50);
+  text-decoration: Underline;
+  text-transform: uppercase;
+  font-family: "Eater", system-ui;
 }
 .wantedNLetter {
-  font-size: 52px;
+  font-size: 54px;
   font-weight: 700;
-  color: rgb(68, 59, 203);
-  text-decoration: Overline;
-  text-transform: uppercase;
-}
-.wantedTLetter {
-  font-size: 64px;
-  font-weight: 400;
-  color: rgb(248, 36, 32);
+  color: rgb(171, 223, 242);
   text-decoration: Line-through;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
+}
+.wantedTLetter {
+  font-size: 34px;
+  font-weight: 700;
+  color: rgb(96, 112, 98);
+  text-decoration: Line-through;
+  text-transform: uppercase;
+  font-family: "Eater", system-ui;
 }
 .wantedELetter {
-  font-size: 35px;
-  font-weight: Normal;
-  color: rgb(197, 138, 131);
+  font-size: 48px;
+  font-weight: 400;
+  color: rgb(219, 26, 218);
   text-decoration: None;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .wantedDLetter {
-  font-size: 51px;
-  font-weight: 700;
-  color: rgb(217, 74, 36);
-  text-decoration: Overline;
-  text-transform: lowercase;
+  font-size: 42px;
+  font-weight: 400;
+  color: rgb(189, 202, 102);
+  text-decoration: None;
+  text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 /* TO word */
 .toTLetter {
-  font-size: 33px;
-  font-weight: 400;
-  color: rgb(174, 131, 187);
-  text-decoration: Line-through;
+  font-size: 39px;
+  font-weight: 700;
+  color: rgb(37, 6, 255);
+  text-decoration: None;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .toOLetter {
-  font-size: 40px;
-  font-weight: 700;
-  color: rgb(221, 128, 36);
-  text-decoration: Underline;
+  font-size: 51px;
+  font-weight: 400;
+  color: rgb(239, 163, 101);
+  text-decoration: None;
   text-transform: lowercase;
+  font-family: "Nosifer", system-ui;
 }
 /* IMPROVE word */
 .improveILetter {
-  font-size: 50px;
-  font-weight: Normal;
-  color: rgb(254, 46, 213);
-  text-decoration: Line-through;
+  font-size: 47px;
+  font-weight: 700;
+  color: rgb(85, 135, 153);
+  text-decoration: Overline;
   text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 .improveMLetter {
-  font-size: 62px;
-  font-weight: 400;
-  color: rgb(74, 219, 146);
+  font-size: 54px;
+  font-weight: Bold;
+  color: rgb(194, 60, 237);
   text-decoration: Underline;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .improvePLetter {
-  font-size: 72px;
-  font-weight: Bold;
-  color: rgb(153, 77, 187);
-  text-decoration: Line-through;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(149, 38, 254);
+  text-decoration: Underline;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .improveRLetter {
-  font-size: 61px;
-  font-weight: Bold;
-  color: rgb(28, 5, 10);
-  text-decoration: Overline;
-  text-transform: lowercase;
+  font-size: 55px;
+  font-weight: Normal;
+  color: rgb(19, 91, 123);
+  text-decoration: Line-through;
+  text-transform: uppercase;
+  font-family: "Eater", system-ui;
 }
 .improveOLetter {
-  font-size: 49px;
-  font-weight: 700;
-  color: rgb(196, 179, 210);
-  text-decoration: Underline;
-  text-transform: lowercase;
+  font-size: 68px;
+  font-weight: Normal;
+  color: rgb(164, 92, 77);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Eater", system-ui;
 }
 .improveVLetter {
-  font-size: 67px;
-  font-weight: Normal;
-  color: rgb(152, 20, 114);
-  text-decoration: Underline;
-  text-transform: uppercase;
+  font-size: 49px;
+  font-weight: 700;
+  color: rgb(12, 120, 252);
+  text-decoration: Overline;
+  text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .improveELetter {
-  font-size: 40px;
-  font-weight: Normal;
-  color: rgb(116, 48, 119);
+  font-size: 58px;
+  font-weight: Bold;
+  color: rgb(220, 84, 180);
   text-decoration: None;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 /* THEIR word */
 .theirTLetter {
-  font-size: 66px;
-  font-weight: 400;
-  color: rgb(75, 46, 34);
-  text-decoration: None;
+  font-size: 31px;
+  font-weight: Bold;
+  color: rgb(114, 52, 13);
+  text-decoration: Line-through;
   text-transform: lowercase;
+  font-family: "Nosifer", system-ui;
 }
 .theirHLetter {
-  font-size: 61px;
-  font-weight: 700;
-  color: rgb(146, 196, 16);
-  text-decoration: Underline;
-  text-transform: uppercase;
-}
-.theirELetter {
-  font-size: 56px;
-  font-weight: 400;
-  color: rgb(151, 214, 223);
+  font-size: 38px;
+  font-weight: Bold;
+  color: rgb(41, 31, 226);
   text-decoration: Line-through;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
+}
+.theirELetter {
+  font-size: 42px;
+  font-weight: 400;
+  color: rgb(20, 19, 127);
+  text-decoration: Underline;
+  text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .theirILetter {
-  font-size: 45px;
-  font-weight: 400;
-  color: rgb(10, 128, 181);
-  text-decoration: None;
+  font-size: 36px;
+  font-weight: Bold;
+  color: rgb(48, 96, 104);
+  text-decoration: Overline;
   text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
 .theirRLetter {
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 700;
-  color: rgb(232, 234, 29);
-  text-decoration: None;
-  text-transform: uppercase;
+  color: rgb(244, 114, 57);
+  text-decoration: Line-through;
+  text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 /* ROOT word */
 .rootRLetter {
-  font-size: 44px;
-  font-weight: Normal;
-  color: rgb(177, 200, 21);
-  text-decoration: Line-through;
-  text-transform: lowercase;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(209, 119, 114);
+  text-decoration: Underline;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .rootOLetter {
-  font-size: 37px;
+  font-size: 66px;
   font-weight: 700;
-  color: rgb(86, 39, 203);
-  text-decoration: Overline;
-  text-transform: lowercase;
+  color: rgb(249, 69, 218);
+  text-decoration: Line-through;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .rootOTwoLetter {
-  font-size: 68px;
-  font-weight: Normal;
-  color: rgb(100, 82, 193);
+  font-size: 38px;
+  font-weight: Bold;
+  color: rgb(55, 60, 26);
   text-decoration: None;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 .rootTLetter {
-  font-size: 46px;
-  font-weight: Normal;
-  color: rgb(64, 245, 130);
-  text-decoration: None;
+  font-size: 43px;
+  font-weight: 700;
+  color: rgb(25, 149, 12);
+  text-decoration: Underline;
   text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 /* SKILLS word */
-.skillsSLetter,
-.skillsKLetter {
-  font-size: 72px;
+.skillsSLetter {
+  font-size: 66px;
   font-weight: 700;
-  color: rgb(133, 141, 84);
-  text-decoration: Overline;
+  color: rgb(141, 245, 41);
+  text-decoration: Line-through;
+  text-transform: lowercase;
+  font-family: "Eater", system-ui;
+}
+.skillsKLetter {
+  font-size: 57px;
+  font-weight: 700;
+  color: rgb(139, 134, 0);
+  text-decoration: None;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
 }
 .skillsILetter {
-  font-size: 65px;
-  font-weight: 400;
-  color: rgb(68, 169, 214);
+  font-size: 54px;
+  font-weight: Bold;
+  color: rgb(202, 243, 86);
   text-decoration: Overline;
   text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 .skillsLLetter {
-  font-size: 65px;
-  font-weight: Bold;
-  color: rgb(91, 180, 64);
-  text-decoration: Overline;
-  text-transform: uppercase;
+  font-size: 68px;
+  font-weight: Normal;
+  color: rgb(34, 91, 182);
+  text-decoration: None;
+  text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .skillsLTwoLetter {
-  font-size: 48px;
-  font-weight: 700;
-  color: rgb(84, 80, 81);
-  text-decoration: None;
+  font-size: 34px;
+  font-weight: Bold;
+  color: rgb(94, 163, 183);
+  text-decoration: Underline;
   text-transform: lowercase;
+  font-family: "Creepster", system-ui;
 }
 .skillsSTwoLetter {
-  font-size: 55px;
-  font-weight: Normal;
-  color: rgb(157, 143, 195);
+  font-size: 35px;
+  font-weight: 400;
+  color: rgb(19, 22, 253);
   text-decoration: None;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
 /* SYMBOLS */
 .hyphen {
-  font-size: 30px;
-  font-weight: 400;
-  color: rgb(170, 11, 104);
+  font-size: 45px;
+  font-weight: Bold;
+  color: rgb(242, 201, 117);
   text-decoration: None;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-family: "Butcherman", system-ui;
 }
-.exclamation-mark,
-.question-mark {
-  font-size: 53px;
-  font-weight: 700;
-  color: hex(#213715);
-  text-decoration: None;
+.exclamation-mark {
+  font-size: 65px;
+  font-weight: Bold;
+  color: rgb(198, 169, 239);
+  text-decoration: Overline;
   text-transform: uppercase;
+  font-family: "Creepster", system-ui;
+}
+.question-mark {
+  font-size: 61px;
+  font-weight: 400;
+  color: rgb(165, 72, 245);
+  text-decoration: Overline;
+  text-transform: uppercase;
+  font-family: "Nosifer", system-ui;
 }
