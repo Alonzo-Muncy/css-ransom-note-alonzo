@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
 
 * {
   padding: 0;
@@ -59,7 +59,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,237 +68,594 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
   font-size: 60px;
   font-weight: normal;
-  color: coral;
+  color: rgb(68, 62, 60);
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font-size: 57px;
+  font-weight: 400;
+  color: rgb(155, 133, 56);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
-
 .didILetter {
+  font-size: 31px;
+  font-weight: Bold;
+  color: rgb(26, 52, 213);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
-
 .didDTwoLetter {
+  font-size: 51px;
+  font-weight: Bold;
+  color: rgb(104, 143, 207);
+  text-decoration: None;
+  text-transform: lowercase;
 }
-
 /* THE word */
-
 .theTLetter {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(215, 136, 193);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
-
 .theHLetter {
+  font-size: 53px;
+  font-weight: 700;
+  color: rgb(222, 22, 181);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
-
 .theELetter {
+  font-size: 45px;
+  font-weight: Bold;
+  color: rgb(215, 220, 27);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
-
 /* FRONT-END word */
-
 .frontendFLetter {
+  font-size: 44px;
+  font-weight: 700;
+  color: rgb(220, 15, 2);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
-
 .frontendRLetter {
+  font-size: 42px;
+  font-weight: 400;
+  color: rgb(141, 7, 12);
+  text-decoration: None;
+  text-transform: uppercase;
 }
-
 .frontendOLetter {
+  font-size: 66px;
+  font-weight: 400;
+  color: rgb(201, 198, 98);
+  text-decoration: Underline;
+  text-transform: uppercase;
 }
-
 .frontendNLetter {
+  font-size: 37px;
+  font-weight: Bold;
+  color: rgb(98, 126, 10);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
-
 .frontendTLetter {
+  font-size: 52px;
+  font-weight: Bold;
+  color: rgb(153, 96, 37);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
-
 .frontendELetter {
+  font-size: 33px;
+  font-weight: Bold;
+  color: rgb(231, 234, 155);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
-
 .frontendNTwoLetter {
+  font-size: 66px;
+  font-weight: 700;
+  color: rgb(53, 169, 149);
+  text-decoration: None;
+  text-transform: lowercase;
 }
-
 .frontendDLetter {
+  font-size: 48px;
+  font-weight: 400;
+  color: rgb(170, 159, 199);
+  text-decoration: Underline;
+  text-transform: uppercase;
 }
-
 /* DEVELOPER word */
-
 .developerDLetter {
+  font-size: 31px;
+  font-weight: Bold;
+  color: rgb(75, 26, 103);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .developerELetter {
+  font-size: 59px;
+  font-weight: 400;
+  color: rgb(214, 42, 138);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .developerVLetter {
+  font-size: 54px;
+  font-weight: 700;
+  color: rgb(168, 159, 205);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
 .developerETwoLetter {
+  font-size: 64px;
+  font-weight: Normal;
+  color: rgb(254, 147, 59);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .developerLLetter {
+  font-size: 66px;
+  font-weight: 400;
+  color: rgb(51, 114, 65);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
 .developerOLetter {
+  font-size: 71px;
+  font-weight: 400;
+  color: rgb(217, 223, 145);
+  text-decoration: Underline;
+  text-transform: uppercase;
 }
 .developerPLetter {
+  font-size: 44px;
+  font-weight: Normal;
+  color: rgb(148, 173, 141);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
 .developerEThreeLetter {
+  font-size: 65px;
+  font-weight: 400;
+  color: rgb(181, 19, 171);
+  text-decoration: None;
+  text-transform: uppercase;
 }
 .developerRLetter {
+  font-size: 59px;
+  font-weight: Normal;
+  color: rgb(128, 65, 46);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
-
 /* TAKE word */
-
 .takeTLetter {
+  font-size: 39px;
+  font-weight: Normal;
+  color: rgb(173, 159, 211);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
 .takeALetter {
+  font-size: 31px;
+  font-weight: Normal;
+  color: rgb(19, 204, 194);
+  text-decoration: None;
+  text-transform: uppercase;
 }
 .takeKLetter {
+  font-size: 63px;
+  font-weight: Bold;
+  color: rgb(82, 224, 204);
+  text-decoration: None;
+  text-transform: uppercase;
 }
 .takeELetter {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(113, 71, 7);
+  text-decoration: None;
+  text-transform: lowercase;
 }
-
 /* UP word */
-
 .upULetter {
+  font-size: 49px;
+  font-weight: 400;
+  color: rgb(66, 135, 148);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
 .upPLetter {
+  font-size: 66px;
+  font-weight: Normal;
+  color: rgb(100, 213, 219);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
-
 /* GARDENING word */
-
 .gardeningGLetter {
+  font-size: 51px;
+  font-weight: Normal;
+  color: rgb(219, 142, 238);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .gardeningALetter {
+  font-size: 54px;
+  font-weight: 400;
+  color: rgb(58, 78, 213);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
 .gardeningRLetter {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(102, 44, 36);
+  text-decoration: None;
+  text-transform: uppercase;
 }
 .gardeningDLetter {
+  font-size: 63px;
+  font-weight: Normal;
+  color: rgb(99, 53, 49);
+  text-decoration: Underline;
+  text-transform: uppercase;
 }
 .gardeningELetter {
+  font-size: 37px;
+  font-weight: 700;
+  color: rgb(165, 213, 212);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .gardeningNLetter {
+  font-size: 63px;
+  font-weight: Normal;
+  color: rgb(153, 189, 67);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
 .gardeningILetter {
+  font-size: 59px;
+  font-weight: 400;
+  color: rgb(170, 181, 39);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .gardeningNTwoLetter {
+  font-size: 59px;
+  font-weight: Normal;
+  color: rgb(127, 182, 53);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .gardeningGTwoLetter {
+  font-size: 37px;
+  font-weight: 400;
+  color: rgb(7, 130, 249);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
-
 /* BECAUSE word */
-
 .becauseBLetter {
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(93, 38, 89);
+  text-decoration: None;
+  text-transform: uppercase;
 }
 .becauseELetter {
+  font-size: 66px;
+  font-weight: Bold;
+  color: rgb(6, 166, 141);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .becauseCLetter {
+  font-size: 55px;
+  font-weight: Normal;
+  color: rgb(109, 59, 111);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .becauseALetter {
+  font-size: 52px;
+  font-weight: 700;
+  color: rgb(144, 209, 143);
+  text-decoration: None;
+  text-transform: uppercase;
 }
 .becauseULetter {
+  font-size: 68px;
+  font-weight: Bold;
+  color: rgb(229, 255, 217);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
 .becauseSLetter {
+  font-size: 38px;
+  font-weight: Bold;
+  color: rgb(109, 66, 176);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
 .becauseETwoLetter {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(10, 244, 186);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
-
 /* THEY word */
-
 .theyTLetter {
+  font-size: 67px;
+  font-weight: 700;
+  color: rgb(150, 42, 250);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
 .theyHLetter {
+  font-size: 60px;
+  font-weight: Bold;
+  color: rgb(30, 143, 97);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .theyELetter {
+  font-size: 37px;
+  font-weight: Normal;
+  color: rgb(181, 124, 166);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
 .theyYLetter {
+  font-size: 33px;
+  font-weight: Bold;
+  color: rgb(80, 60, 83);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
-
 /* WANTED word */
-
 .wantedWLetter {
+  font-size: 49px;
+  font-weight: 400;
+  color: rgb(25, 83, 188);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .wantedALetter {
+  font-size: 42px;
+  font-weight: Normal;
+  color: rgb(233, 134, 218);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
 .wantedNLetter {
+  font-size: 52px;
+  font-weight: 700;
+  color: rgb(68, 59, 203);
+  text-decoration: Overline;
+  text-transform: uppercase;
 }
 .wantedTLetter {
+  font-size: 64px;
+  font-weight: 400;
+  color: rgb(248, 36, 32);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
 .wantedELetter {
+  font-size: 35px;
+  font-weight: Normal;
+  color: rgb(197, 138, 131);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .wantedDLetter {
+  font-size: 51px;
+  font-weight: 700;
+  color: rgb(217, 74, 36);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
-
 /* TO word */
-
 .toTLetter {
+  font-size: 33px;
+  font-weight: 400;
+  color: rgb(174, 131, 187);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .toOLetter {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(221, 128, 36);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
-
 /* IMPROVE word */
-
 .improveILetter {
+  font-size: 50px;
+  font-weight: Normal;
+  color: rgb(254, 46, 213);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
 .improveMLetter {
+  font-size: 62px;
+  font-weight: 400;
+  color: rgb(74, 219, 146);
+  text-decoration: Underline;
+  text-transform: uppercase;
 }
 .improvePLetter {
+  font-size: 72px;
+  font-weight: Bold;
+  color: rgb(153, 77, 187);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
 .improveRLetter {
+  font-size: 61px;
+  font-weight: Bold;
+  color: rgb(28, 5, 10);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
 .improveOLetter {
+  font-size: 49px;
+  font-weight: 700;
+  color: rgb(196, 179, 210);
+  text-decoration: Underline;
+  text-transform: lowercase;
 }
 .improveVLetter {
+  font-size: 67px;
+  font-weight: Normal;
+  color: rgb(152, 20, 114);
+  text-decoration: Underline;
+  text-transform: uppercase;
 }
 .improveELetter {
+  font-size: 40px;
+  font-weight: Normal;
+  color: rgb(116, 48, 119);
+  text-decoration: None;
+  text-transform: uppercase;
 }
-
 /* THEIR word */
-
 .theirTLetter {
+  font-size: 66px;
+  font-weight: 400;
+  color: rgb(75, 46, 34);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .theirHLetter {
+  font-size: 61px;
+  font-weight: 700;
+  color: rgb(146, 196, 16);
+  text-decoration: Underline;
+  text-transform: uppercase;
 }
 .theirELetter {
+  font-size: 56px;
+  font-weight: 400;
+  color: rgb(151, 214, 223);
+  text-decoration: Line-through;
+  text-transform: uppercase;
 }
 .theirILetter {
+  font-size: 45px;
+  font-weight: 400;
+  color: rgb(10, 128, 181);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .theirRLetter {
+  font-size: 56px;
+  font-weight: 700;
+  color: rgb(232, 234, 29);
+  text-decoration: None;
+  text-transform: uppercase;
 }
-
 /* ROOT word */
-
 .rootRLetter {
+  font-size: 44px;
+  font-weight: Normal;
+  color: rgb(177, 200, 21);
+  text-decoration: Line-through;
+  text-transform: lowercase;
 }
 .rootOLetter {
+  font-size: 37px;
+  font-weight: 700;
+  color: rgb(86, 39, 203);
+  text-decoration: Overline;
+  text-transform: lowercase;
 }
 .rootOTwoLetter {
+  font-size: 68px;
+  font-weight: Normal;
+  color: rgb(100, 82, 193);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .rootTLetter {
+  font-size: 46px;
+  font-weight: Normal;
+  color: rgb(64, 245, 130);
+  text-decoration: None;
+  text-transform: uppercase;
 }
-
 /* SKILLS word */
-
-.skillsSLetter {
-}
+.skillsSLetter,
 .skillsKLetter {
+  font-size: 72px;
+  font-weight: 700;
+  color: rgb(133, 141, 84);
+  text-decoration: Overline;
+  text-transform: uppercase;
 }
 .skillsILetter {
+  font-size: 65px;
+  font-weight: 400;
+  color: rgb(68, 169, 214);
+  text-decoration: Overline;
+  text-transform: uppercase;
 }
 .skillsLLetter {
+  font-size: 65px;
+  font-weight: Bold;
+  color: rgb(91, 180, 64);
+  text-decoration: Overline;
+  text-transform: uppercase;
 }
 .skillsLTwoLetter {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(84, 80, 81);
+  text-decoration: None;
+  text-transform: lowercase;
 }
 .skillsSTwoLetter {
+  font-size: 55px;
+  font-weight: Normal;
+  color: rgb(157, 143, 195);
+  text-decoration: None;
+  text-transform: lowercase;
 }
-
 /* SYMBOLS */
-
 .hyphen {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(170, 11, 104);
+  text-decoration: None;
+  text-transform: uppercase;
 }
-.exclamation-mark {
-}
+.exclamation-mark,
 .question-mark {
+  font-size: 53px;
+  font-weight: 700;
+  color: hex(#213715);
+  text-decoration: None;
+  text-transform: uppercase;
 }
